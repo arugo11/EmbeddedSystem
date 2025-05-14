@@ -5,13 +5,13 @@ https://chatgpt.com/share/68252db0-9d94-8012-89cb-c2e308f82dc7
 
 ```powershell
 # PowerShell（Windows 側）
-usbipd attach --busid 4-1 --wsl
+usbipd attach --busid 1-2 --wsl
 ````
 
 ```bash
-# Ubuntu（WSL 側）
+# Ubuntu（WSL 側）-> 基本的に必要ない
 ls /dev/ttyACM0
-sudo chmod a+rw /dev/ttyACM0  # 必要なら
+sudo chmod a+rw /dev/ttyACM0
 ```
 
 ---
